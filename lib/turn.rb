@@ -15,7 +15,7 @@ def turn(board)
     move(board, index ,value="X")
     display_board(board)
   else
-    puts " Please enter from 1-9 "
+    puts " INVALID MOVE "
     turn(board)
   end
 
