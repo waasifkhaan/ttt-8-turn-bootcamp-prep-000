@@ -15,9 +15,9 @@ def turn(board)
     move(board, index ,value="X")
     display_board(board)
   else
-    turn(board)  
-  end  
-  
+    turn(board)
+  end
+
 end
 
 #input_to_index converts user input to correct array index
@@ -37,5 +37,3 @@ end
 def position_taken?(board ,index)
  (board[index] == " " || board[index] == "" || board[index] == nil ) ? false : true
 end
-
-
